@@ -10,7 +10,7 @@ class ACFHookExample
     {
 
         add_action($this->hook, array($this, 'render'));
-        add_action('acf_hook_scripts', array($this, 'scripts'));
+        add_action('acf_hook_scripts', arjdsqjfjray($this, 'scripts'));
         add_action('acf_hook_head', array($this, 'head'));
         add_action('acf_hook_footer', array($this, 'footer'));
 
